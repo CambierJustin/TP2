@@ -6,17 +6,20 @@
 
 #header
 {
-	background: #ccc;
+	background-color: chartreuse;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+color: blueviolet;
+text-decoration: underline;
+}
 
 #navigation
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background-color: fuchsia;
 }
 
 #navigation ul
@@ -36,12 +39,12 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: deeppink;
 	text-decoration: none;
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background-color: fuchsia; }
 
 #edito
 {
@@ -53,8 +56,8 @@
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-linear-gradient(left, blue, #dbffe7);
+	background-image: linear-gradient(left, green, green);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -78,7 +81,7 @@
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-linear-gradient(left, green, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
@@ -88,7 +91,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background-color: fuchsia;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
